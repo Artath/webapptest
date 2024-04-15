@@ -3,11 +3,15 @@
     "short_name": "KoenigFinance",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
+    "background_color": "F8F8F8",
+    "theme_color": "#F8F8F8",
     "description": "Finance app",
     "orientation": "portrait-primary",
-    "prefer_related_applications": false,
+    "prefer_related_applications": true,
+    "related_applications": [{
+        "platform": "webapp",
+        "id": "https://fir-crashlytics-cf199.web.app/"
+      }],
     "icons": [
         {
             "src": "icons/Icon-192.png",
